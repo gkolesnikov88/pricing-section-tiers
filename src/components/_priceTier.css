@@ -1,0 +1,98 @@
+.pricing-tiers__plan {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    /* Background/primary */
+    background: #FFFFFF;
+    /* Border/primary */
+    border: 1px solid #E6E6E6;
+    /* shadow / shadow-sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    color: var(--text-secondary-color);
+}
+
+.pricing-tiers__plan__highlight {
+    display: none;
+    /* Icon/brand-background */
+    background: #EEF2FF;
+
+    margin: -32px 0 0 -32px;
+    width: calc(100% + 64px);
+    height: 60px;
+
+    /* Text/brand */
+    color: var(--text-brand-color);
+
+    font-weight: 700;
+}
+
+.pricing-tiers__most-popular .pricing-tiers__plan__highlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-tiers__plan__header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pricing-tiers__plan__header_description {
+    /* Text/secondary */
+    color: var(--text-secondary-color);
+}
+
+.pricing-tiers__plan__price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    /* Text/secondary */
+    color: var(--text-secondary-color);    
+}
+
+.pricing-tiers__plan__price__amount {
+    /* Text/primary */
+    color: var(--text-primary-color);
+}
+
+.pricing-tiers__plan__features {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pricing-tiers__plan__feature {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.pricing-tiers__plan__feature svg {
+    flex-shrink: 0;
+
+    /* Icon/brand-background */
+    background: #EEF2FF;
+    border-radius: 50%;
+
+    fill: #6366F1;
+}
+
+.cta-actions {
+    width: 100%;
+    /* display: flex;
+    align-items: center; */
+    margin-top: auto;
+}
+
+.btn-cta {
+    width: 100%;
+}

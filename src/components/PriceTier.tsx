@@ -6,7 +6,7 @@ const PriceTier = ({ mostPopular = false }) => {
   return (
     <div
       className={`pricing-tiers__plan ${
-        mostPopular ? "pricing-tiers__most-popular" : ""
+        mostPopular ? "pricing-tiers__plan--most-popular" : ""
       } text-base`}
     >
       <div className="pricing-tiers__plan__highlight text-xl">
@@ -17,7 +17,7 @@ const PriceTier = ({ mostPopular = false }) => {
         <p className="pricing-tiers__plan__header_description text-base">Access to a curated selection of abstract images</p>
       </div>
       <div className="pricing-tiers__plan__price">
-        <div>
+        <div className="pricing-tiers__plan__price_wrapper">
           <span className="pricing-tiers__plan__price__amount text-5xl semibold">$9.99</span>
           <span>/ month</span>
         </div>
@@ -36,7 +36,7 @@ const PriceTier = ({ mostPopular = false }) => {
         </li>
       </ul>
       <div className="cta-actions">
-        <button className="btn btn-cta btn-cta--active" aria-pressed="false">
+        <button className={`btn btn-cta btn-cta--active ${mostPopular ? "btn-primary" : ""}`} aria-pressed="false">
           Buy now
         </button>
       </div>

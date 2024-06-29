@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pricing-section-tiers/static/css/main.618a0c79.css",
+    "main.js": "/pricing-section-tiers/static/js/main.8e34b9ed.js",
+    "static/js/453.2fb2b41a.chunk.js": "/pricing-section-tiers/static/js/453.2fb2b41a.chunk.js",
+    "index.html": "/pricing-section-tiers/index.html",
+    "main.618a0c79.css.map": "/pricing-section-tiers/static/css/main.618a0c79.css.map",
+    "main.8e34b9ed.js.map": "/pricing-section-tiers/static/js/main.8e34b9ed.js.map",
+    "453.2fb2b41a.chunk.js.map": "/pricing-section-tiers/static/js/453.2fb2b41a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.618a0c79.css",
+    "static/js/main.8e34b9ed.js"
+  ]
+}
